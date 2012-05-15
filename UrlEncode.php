@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @author yohan
+
  * @version 
  */
 require_once 'Zend/View/Interface.php';
@@ -9,6 +9,8 @@ require_once 'Zend/View/Interface.php';
 /**
  * A simple url encoder with base64 to solve spécials chars problem
  * some base64 chars that are part of standars url are modified : +=/
+ * 
+ * @author Yohan Boutin <yohan@comewithus.fr>
  * 
  * @example encode : $this->urlEncode('str');
  * 			decode : $this->urlEncode('str',true);
